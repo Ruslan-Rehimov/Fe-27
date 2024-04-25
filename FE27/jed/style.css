@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: arial;
+
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4 , 270px);
+    grid-template-rows:  repeat(2, 310px) ; 
+    gap: 15px;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+.box{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+ img{
+   width: 80px;
+   height: 80px;
+}
+h2{
+    color: #173D7A;
+    font-size: 19px;
+    margin: 8px 0;
+}
+
+p{
+    color: #A2A2A2;
+}
+ 
+
+
