@@ -2,76 +2,46 @@
 // İstifadəçidən bir ay adı daxil etməsini tələb edən və həmin ayın neçə gün
 //  çəkdiyini göstərən bir proqram yazın. (switch-case ilə)
  
-const getMonthOfDay = (ay,gun) => {
+const getMonthOfDay = (ay) => {
     let ay = +prompt("ilin aylarini  daxil edin")
     switch(ay){
-        case 1 :
-            alert("Bu ay yanvardi")
+        case "yanvar" :
+            alert("Bu ay 31 gundur")
             break;
-        case 2 :
-            alert("Bu ay fevraldi")
+        case "fevral" :
+            alert("Bu 29 gundu")
             break;
-        case 3 :
-            alert("Bu ay martdi")
+        case "mart" :
+            alert("Bu ay 31 gundu")
             break;
-        case 4 :
-            alert("Bu ay apreldi")
+        case "aprel" :
+            alert("Bu ay 30 gundu")
             break;
-        case 5 :
-            alert("Bu ay maydi")
+        case "may" :
+            alert("Bu ay 31 gundu")
             break;
-        case 6 :
-            alert("Bu ay iyundi")
+        case "iyun":
+            alert("Bu ay 30 gundu")
             break;
-        case 7 :
-            alert("Bu ay iyuldi")
+        case "iyul" :
+            alert("Bu ay 31 gundu")
             break;
-        case 8 :
-            alert("Bu ay avqustdi")
+        case "avqust" :
+            alert("Bu ay 31 gundu")
             break;
-        case 9 :
-            alert("Bu ay sentyabrdi")
+        case "sentyabr" :
+            alert("Bu ay 30 gundu")
             break;
-        case 10 :
-            alert("Bu ay oktyabrdi")
+        case "oktyabr" :
+            alert("Bu ay 31 gundu")
             break;
-        case 11 :
-            alert("Bu ay noyabrdi")
+        case "noyabr" :
+            alert("Bu ay 30 gundu")
             break;
-        case 12 :
-            alert("Bu ay dekabrdi")
+        case "dekabr" :
+            alert("Bu ay 31 gundu")
             break;
             default: alert("ilde yalniz 12 ay var");
     };
 }
 
-getMonthOfDay = (ay,day) => {
-
-     () => alert("daha cox calis")
-
-    if(day === 1){
-        return "31 gun"
-    }else if(day === 2){
-        return "29 gun"
-    }else if(day === 3){
-        return "31 gun"
-    }else if(day === 4){
-        return "30 gun"
-    }else if(day === 5){
-        return "31 gun"
-    }else if(day === 6){
-        return "30 gun"
-    }else if(day === 7){
-        return "31 gun"
-    }else if(day === 8){
-        return "31 gun"
-    }else if(day === 9){
-        return "30 gun"
-    }else if(day === 10){
-        return "31 gun"
-    }else if(day === 11){
-        return "30 gun"
-    }else if(day === 12){
-        return "31 gun"
-}
-}
